@@ -13,8 +13,8 @@ Nell’array non devono esserci doppioni.
 // 1.
 const numArr = [];
 // 2.
-for (let i = 0; numArr.length < 5; i++) {
-    let randNum = parseInt(Math.floor(Math.random() * 6 + 1));
+for (let i = 0; numArr.length < 50; i++) {
+    let randNum = parseInt(Math.floor(Math.random() * 51 + 1));
     console.log("questi sono i numeri generati randomicamente " + randNum);
     // 2.1
     if (numArr.includes(randNum) === false){

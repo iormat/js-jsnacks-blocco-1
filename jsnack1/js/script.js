@@ -17,7 +17,9 @@ const secondNum = parseInt(prompt("scegli un numero intero:"));
 if(firstNum > secondNum){
     // 3.
     document.getElementById('results').innerHTML = firstNum;
-}else {
+}else if (secondNum > firstNum){
     // 3.
     document.getElementById('results').innerHTML = secondNum;
+}else {
+    alert("i numeri sono uguali!")
 }

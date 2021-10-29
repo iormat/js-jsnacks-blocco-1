@@ -23,7 +23,7 @@ if(firstWord.length > secondWord.length){
     // 3., 4.
     document.getElementById('results').innerHTML = 
         `${firstWord} &egrave; la parola pi&ugrave; piccola&period; ${secondWord} &egrave; la parola pi&ugrave; lunga`;
-} else if (firstWord.length === secondWord.length){
+} else {
     document.getElementById('results').innerHTML = 
         `Le parole ${firstWord} e ${secondWord} sono lunghe uguali`;
 }
